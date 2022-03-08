@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 10px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  background: #333;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.t-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.t-ellipsis-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-hover-data {
+  padding: 16px;
+  position: absolute;
+  z-index: 10;
+  bottom: -100%;
+  background: rgba(256,256,256, 0.9);
+  color: #333;
+  left: 0;
+  right: 0;
+  transition: bottom 0.4s ease-in-out;
+}
+
+.card-hover:hover .card-hover-data {
+  bottom: 0;
+}
+
+
+/* MUI OVERRIDE */
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/*for change label color in focus state*/
+.MuiFormLabel-root {
+  color: #fff !important;
+}
