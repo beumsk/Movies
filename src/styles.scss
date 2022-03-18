@@ -10,6 +10,16 @@ main {
   margin: 10px;
 }
 
+footer {
+  font-size: 0.75rem;
+  a {
+    color: white;
+    &:hover {
+      color: #ddd
+    }
+  }
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
