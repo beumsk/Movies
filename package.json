@@ -1,8 +1,14 @@
 {
   "name": "react-movies",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Movies app in React fetching data from TMDB with redux, redux-thunk and Material UI for design.",
+  "keywords": [
+    "api",
+    "react",
+    "tmdb",
+    "redux",
+    "movies"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "@emotion/react": "11.8.1",
